@@ -1,0 +1,12 @@
+{
+  "name": "cuentasbancopopular",
+  "version": "1.0.0",
+  "description": "gestion de cuentas corrientees del banco popular",
+  "main": "js.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "curso alura",
+  "license": "ISC",
+  "type" : "module"
+}

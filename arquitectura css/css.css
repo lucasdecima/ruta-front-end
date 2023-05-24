@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.cabecera {
+    display: flex;
+    align-items: center;
+    background-color:rgb(233, 204, 204);
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+
+
+.menu-lista {
+    display: flex;
+    list-style: none;
+}
+
+.menu-item {
+    color: rgb(5, 12, 46);
+    margin-right: 1.25rem;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: 20px;
+
+}
+
+.menu-item a:hover {
+    text-decoration: underline;
+    color: azure;
+}
+
+.banner-imagen{
+    width: 100%;
+    height: calc(100vh - 72px)
+}
+.banner-titulo{
+    width: 100%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-shadow: 0 4px 4px rgba(0,0,0,0.75);
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+}
+.sobre{
+    text-align: center;
+    
+
+}
+
+.sobre-titulo{
+    color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.sobre-description{
+    color: cadetblue;
+    
+    font-weight: 100;
+}
+
+.recetas{
+    background-color: rgb(199, 187, 187);
+    display: flex;
+    flex-wrap: wrap;
+}
+.receta__imagen{
+    height: 200px;
+    border-radius: 2rem 2rem 0 0;
+    
+}
+.receta__titulo{
+    font-size: 1.4375rem;
+
+}
+.receta{
+    background-color: darkkhaki;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    
+    border-radius: 2rem;
+}
+.receta__contenido{
+    padding: 1rem;
+}
+.receta__descripcion{
+    font-size: 1.1875rem;
+    line-height: 1.5;
+    text-align: justify;
+    
+}
+.receta__boton{
+    background-color: brown;
+    border: none;
+    border-radius: 1rem;
+    color: aliceblue;
+    padding: 1rem;
+}
+
+.quienes-somos{
+   text-align: center;
+   padding: 5rem;
+   background-color: wheat; 
+}
+
+.quienes-somos__titulo{
+    margin-bottom: 1rem;
+    color: brown;
+    font-size: 3.1875rem;
+    font-family: fantasy;
+    text-align: center;
+}
+
+.quienes-somos__descripcion{
+    font-weight: 100;
+    font-size: 1.75rem;
+    color: darkgray;
+}
+
+.persona{
+    display: flex;
+    flex-direction: column;
+}
+.personas{
+    display: flex;
+    padding-top: 3rem;
+    justify-content: space-around;
+}
+
+.persona__imagen{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+.persona__nombre{
+    margin: 1rem 0 ;
+    font-size: 2rem;
+    font-family: cursive;
+    color: brown;
+}
+.persona__funcion{
+    text-transform: lowercase;
+    color: blueviolet;
+    font-size: 1.25rem;
+}
+
+.pie-pagina{
+    background-color: brown;
+    color: aliceblue;
+    text-align: right;
+    padding: 1.5625rem 5rem;
+    text-transform: lowercase;
+
+}
